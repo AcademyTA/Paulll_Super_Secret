@@ -1,0 +1,25 @@
+/*.movie-row {
+  max-height: 400px;
+}*/
+
+.movie-row {
+  background: #B9A044;
+  border: 2px solid red;
+  height: auto;
+  max-height: 100%;
+  overflow: auto;
+  padding: 10px;
+}
+
+.poster {
+  background: orange;
+  border: 2px solid green;
+  text-align: center;
+  margin: 10px 5px;
+}
+
+.poster .img-responsive {
+  margin: 0 auto;
+  max-height: 320px;
+  padding: 5px;
+}
